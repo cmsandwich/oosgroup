@@ -215,7 +215,7 @@ window.gibinit = function() {
       window.gibSoundLoopSource = source;
 
       if (duration > 0) {
-        setTimeout(window.gibStopSound, (duration * 1000));
+        setTimeout(window.gibStopSound, (duration * 500));
       }
     }
 
@@ -307,7 +307,7 @@ window.gibinit = function() {
     PRODUCT_UPC:    detectUPC(),
     PRODUCT_TITLE:  detectProductName(),
 
-    refreshSeconds: window.gibRetailer == 'gamestop' ? 60 : 10,
+    refreshSeconds: window.gibRetailer == 'gamestop' ? 60 : 5,
 
     createElement: function(tag, id, styles) {
       var node = document.createElement(tag);
