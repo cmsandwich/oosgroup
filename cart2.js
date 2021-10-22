@@ -87,7 +87,7 @@ window.gibinit = function() {
 
   function gamestop_addToCart(DEBUG_NODE, UPC) {
     var cartUrl = 'https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Cart-AddProduct?redesignFlag=true';
-    var cart = 'pid=' + UPC + '&quantity=1&pageSpecified=PLP&recentCheck=true&addToCartSource=RecentlyViewed';
+    var cart = 'pid=' + UPC + '&quantity=2&pageSpecified=PLP&recentCheck=true&addToCartSource=RecentlyViewed';
 
     var BUILD_WARNING = function() {
       if (window.gibVerified >= 0) {
