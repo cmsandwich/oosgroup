@@ -296,7 +296,7 @@ window.gibinit = function() {
   };
 
   var gib = {
-    GIB_VERSION:    '1.0.1',
+    GIB_VERSION:    '1.0.8',
     PRODUCT_UPC:    detectUPC(),
     PRODUCT_TITLE:  detectProductName(),
 
